@@ -1,0 +1,101 @@
+@charset "UTF-8";
+/*	TOOL BOX
+-------------------------------------------------------*/
+
+/* layout */
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
+
+.layout-center {
+  margin: 0 auto;
+}
+
+.txt-center {
+  text-align: center;
+}
+
+.txt-right {
+  text-align: right;
+}
+
+.txt-left {
+  text-align: left;
+}
+
+/* For modern browsers */
+
+.cf:before, .cf:after {
+  content: "";
+  display: table;
+}
+
+.cf:after {
+  clear: both;
+}
+
+/* For IE 6/7 (trigger hasLayout) */
+
+.cf {
+  zoom: 1;
+}
+
+/* typography */
+
+.error {
+  border: 1px solid #fb4343;
+  padding: 3px;
+  color: #fb4343;
+}
+
+.warning {
+  border: 1px solid #d4ac0a;
+  padding: 3px;
+  color: #d4ac0a;
+}
+
+.success {
+  border: 1px solid #149b0d;
+  padding: 3px;
+  color: #149b0d;
+}
+
+.callOut {
+  font-size: 125%;
+  font-weight: bold;
+}
+
+.strikeOut {
+  text-decoration: line-through;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+/* display */
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.invisible {
+  visibility: hidden;
+}
